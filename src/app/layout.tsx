@@ -1,6 +1,7 @@
+import "./globals.css"
+
 import type { Metadata } from "next"
 import { Noto_Sans } from "next/font/google"
-import "./globals.css"
 import Head from "next/head"
 
 const notoSans = Noto_Sans({ subsets: ["latin"] })

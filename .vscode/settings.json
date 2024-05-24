@@ -1,6 +1,13 @@
 {
     "cSpell.words": ["commitlint", "developomp", "nextjs", "tailwindcss"],
 
+    // save action
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+
+    // formatter for each file types
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
