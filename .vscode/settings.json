@@ -7,6 +7,11 @@
         "source.fixAll.eslint": "explicit"
     },
 
+    // tailwind
+    "css.customData": [".vscode/tailwind.json"], // https://github.com/tailwindlabs/tailwindcss/discussions/5258#discussioncomment-1979394
+    "tailwindCSS.classAttributes": ["className"],
+    "editor.quickSuggestions": { "strings": true },
+
     // formatter for each file types
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
