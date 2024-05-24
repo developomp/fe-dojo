@@ -1,6 +1,7 @@
 # pomp's Frontend Dojo
 pomp's Frontend Dojo is a [Next.js](https://github.com/vercel/next.js) app where I could practice my web frontend skills
 by implementing designs using [React](https://github.com/facebook/react).
+
 ## Setting up
 
 1. Install the following
@@ -12,7 +13,11 @@ by implementing designs using [React](https://github.com/facebook/react).
    ```
    pnpm install
    ```
-4. Start dev server at http://localhost:3000
+4. Prepare [husky](https://github.com/typicode/husky) hooks
+   ```
+   pnpm prepare
+   ```
+5. Start dev server at http://localhost:3000
    ```
    pnpm dev
    ```

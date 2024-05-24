@@ -1,5 +1,5 @@
 {
-    "cSpell.words": ["developomp", "nextjs", "tailwindcss"],
+    "cSpell.words": ["commitlint", "developomp", "nextjs", "tailwindcss"],
 
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
