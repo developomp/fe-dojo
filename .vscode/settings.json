@@ -1,6 +1,9 @@
 {
     "cSpell.words": ["commitlint", "developomp", "nextjs", "tailwindcss"],
 
+    // typescript
+    "typescript.tsdk": "node_modules/typescript/lib",
+
     // save action
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
