@@ -1,0 +1,16 @@
+name: Close All Pull Requests
+on:
+  pull_request:
+  schedule:
+    - cron: "0 0 * * *" # just in case there are PRs left unclosed
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close PR if author is not the repo owner
+        uses: crondaemon/close-pr@v1
+        if: ${{ github.actor != 'developomp' }}
+        with:
+          comment: "Sorry, but this repository is not open for pull requests. [Click here to learn why](https://github.com/developomp/fe-dojo/blob/main/CONTRIBUTING.md)."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

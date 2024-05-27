@@ -5,26 +5,6 @@
 pomp's Frontend Dojo is a [Next.js](https://github.com/vercel/next.js) app where I could practice my web frontend skills
 by implementing designs using [React](https://github.com/facebook/react).
 
-## Setting up
-
-1. Install the following
-   - [git](https://git-scm.com)
-   - [pnpm](https://pnpm.io)
-   - [Node.js](https://nodejs.org)
-2. Clone this repository
-3. Install dependencies using pnpm
-   ```
-   pnpm install
-   ```
-4. Prepare [husky](https://github.com/typicode/husky) hooks
-   ```
-   pnpm prepare
-   ```
-5. Start dev server at http://localhost:3000
-   ```
-   pnpm dev
-   ```
-
 ## Tech Stack
 
 ![Vercel](https://img.shields.io/badge/vercel-222?style=for-the-badge&logo=vercel)
