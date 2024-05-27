@@ -1,6 +1,6 @@
 # pomp's Frontend Dojo
 
-[![fe-dojo.developomp.com](https://img.shields.io/badge/fe-dojo.developomp.com-gray?style=for-the-badge)](https://fe-dojo.developomp.com)
+[![fe-dojo.developomp.com](https://img.shields.io/badge/fe--dojo.developomp.com-gray?style=for-the-badge)](https://fe-dojo.developomp.com)
 
 pomp's Frontend Dojo is a [Next.js](https://github.com/vercel/next.js) app where I could practice my web frontend skills
 by implementing designs using [React](https://github.com/facebook/react).
